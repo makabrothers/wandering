@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    /* font-family: "JHA Times Now", serif; */
+     font-family: "Neue Montreal", sans-serif;
+     background-color: #FFFCF5;
+}
+#main{
+  width: 100%;
+  height: 100%;
+}
+.logo{
+  height: 50px;
+  width: 100%;
+}
+.logo h1{
+  padding: 10px 0 0 15%;
+  transition: all ease 1s;
+}
+.logo>h1:hover{
+  transform: scale(1.1);
+  text-decoration: underline; 
+  transform: rotate(-17deg);
+}
+.nav-part{
+  width: 100%;
+  height: 60%;
+  font-family: "JHA Times Now", serif;
+  /* background-color: red; */
+}
+.nav-part>h1{
+  font-size: 125px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  font-weight: 300;
+  text-align: center;
+  padding: 100px 0 0 0;
+
+}
+.main-pt{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.main-pt img{
+  width: 750px;
+  padding-top: 160px;
+  transition: all ease 1s;
+}
+.main-pt img:hover{
+  transform: scale(1.5);
+}
+.sec-1{
+  width: 100%;
+  height: 120%;
+  text-align: center;
+  padding-top: 15%;
+}
+.sec-1 img{
+  width: 209px ;
+}
+.sec-1 h1{
+  font-family: "Neue Montreal", sans-serif;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: -0.015em;
+  padding:20px 0 10px 0;
+}
+.sec-1 p{
+  font-family: "JHA Times Now", serif;
+  font-size: 42px;
+  font-weight: 100;
+  line-height: 1.0952380952;
+  letter-spacing: -0.02em;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.sec-1 a{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.1818181818;
+  letter-spacing: -0.005em;
+  padding: 7px 35px 7px 35px;
+  border: 1px solid #1C1917;
+  border-radius: 12px;
+  color: #1C1917;
+  text-decoration: none;
+  transition: all ease 1s;
+}
+.sec-1 a:hover{
+  background-color: #1C1917;
+  color: #FFFCF5;
+}
+.sec-2{
+  width: 100%;
+  height: 120%;
+  display: flex;
+  overflow: hidden;
+}
+.sec-2-img1{
+  width: 40%;
+  height: 100%;
+  margin:3%;
+}
+.sec-2-img2{
+  width: 40%;
+  height: 100%;
+  margin: 3%;
+}
+.sec-2-img1 img{
+    width: 630px;
+    height: 120%;
+    transition: all ease-in-out 1s;
+}
+.sec-2-img2 img{
+    width: 630px;
+    margin-left: 8%;
+      height: 120%;
+      transition: all ease-in-out 1s;
+    }
+    .sec-2-img1 img:hover,
+    .sec-2-img2 img:hover{
+      transform: scale(.9);
+      transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+      box-shadow: 3px 5px 10px #1C1917;
+    }
+
+    .sec-3{
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+    .sec-3 video{
+      width: 70%;
+      height: auto;
+      object-fit: contain;
+      overflow-clip-margin: content-box;
+      overflow: clip;
+    }
+    .sec-4{
+      width: 100%;
+      height: 60%;
+      text-align: center;
+      padding-top: 10%;
+    }
+    .sec-4 img{
+      width: 209px ;
+    }
+    .sec-4 h1{
+      font-family: "Neue Montreal", sans-serif;
+      font-size: 42px;
+      font-weight: 500;
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: -0.015em;
+      padding:20px 0 10px 0;
+    }
+    .sec-4 p{
+      font-family: "JHA Times Now", serif;
+      font-size: 42px;
+      font-weight: 100;
+      line-height: 1.0952380952;
+      letter-spacing: -0.02em;
+      text-align: center;
+    }
+    .main-pt2{
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+    .main-pt2 img{
+      width: 500px;
+      transition: all ease 1s;
+    }
+    .main-pt2 img:hover{
+      transform: scale(1.5);
+    }
+    .main-pt3{
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+    .main-pt3 img{
+      width: 750px;
+    }
+    .sec-5{
+      width: 100%;
+      height: auto;
+      display: flex;
+    }
+    .sec-5 .images{
+      width: 30%;
+      margin: 0 0 0 2%;
+      transition: all ease 1s;
+    }
+    .sec-5 .images img{
+      transition: all ease 1s;
+    }
+    .images img:hover{
+      transform: scale(0.9);
+    }
+    .last{
+      width: 100%;
+      height: 65%;
+      text-align: center;
+    }
+    .pr1 img{
+      width: 600px;
+    }
+    .pr2{
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    .pr2 p{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.1666666667;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+    .pr3 span{
+      font-family: "JHA Times Now", serif;
+      font-size: 9px;
+      font-weight: 400;
+      line-height: 1.1111111111;
+      text-transform: uppercase;
+      margin-right: 0.6666666667em;
+      padding: 10px 20px 10px 20px;
+    }
+    .pr3 p{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.1666666667;
+      text-transform: uppercase;
+      letter-spacing: 0;
+      padding: 2px;
+    }
